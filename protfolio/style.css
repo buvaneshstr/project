@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(22, 200, 223);
+    font-family: 'Tangerine', serif;
+}
+/* navbar item*/
+.nav-item{
+    color: rgb(72, 232, 19);
+    padding-right: 10px;
+}
+/*navbar contant coloring*/
+.nav-link{
+    color: rgb(243, 6, 184) !important;
+   
+}
+/* navbar hover animation*/
+.nav-link:hover{
+ color:yellow !important;
+ 
+}
+/*navbar contant*/
+.navbar-nav{
+    padding-right: 140px;
+}  
+/* navbar image*/  
+.navbar-brand img {
+    height: 40px;
+}
+/* About pages */
+.about-head2{
+    color: rgb(208, 251, 16);
+    
+     font-size: 35px;
+}
+.about-head3{
+    color: rgb(118, 185, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.about-page{
+    color: rgb(120, 9, 238);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+address{
+    color: rgb(177, 129, 32);
+    text-align: left;
+}
+/* heading my name*/
+.h1{
+    background-image: linear-gradient(to left,rgb(255, 255, 0), rgb(59, 235, 229) );
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-kerning: auto;
+}
+/* heading pararaph*/
+.h6{
+    color: rgb(255, 7, 114);
+}
+/* icons hover animation*/
+i:hover{
+ color:green;
+}
+/* icons */
+i{
+    color: rgb(227, 104, 27);
+}
+/* card image align*/
+#servies-image{
+    margin-top: 30px;
+    
+    height: 100px;
+    width: 100px;
+    margin-left: 110px;
+}
+/* card align*/
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+/*card row align */
+.row{
+    padding-top: 80px;
+    padding-left: 50px;
+    background-color:  rgb(17, 17, 17);
+}
+.h3{
+    text-align: center;
+    color:rgb(23, 34, 230)
+}
+@media screen and (min-width:560px){
+    .nav-item {
+        display: inline;
+        font-size: 15px;
+        color: yellow;
+    } 
+}
+.h3-serve{
+    color: rgba(27, 138, 235, 0.138);
+    text-align: center;
+    font-size: 60px;
+}
+/* about page  */
+#about-img{
+    width: 570px;
+    height: 514px;
+    background-color: rgb(17, 17, 17);
+    
+    
+}
+
+#about-h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 0px;
+    color: rgb(185, 234, 189);
+    text-align: start;
+}
+pre{
+    font-size: 20px;
+    justify-content: space-between;
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* about page  End */
+/* servies  page align */
+
+
+/* MY skills */
+lable{
+    font-size: 50px;
+}
+.h4{
+    color: rgb(235, 117, 117);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.skill-text{
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h6-progress{
+    color: rgb(46, 233, 233);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+/* MY skills  End*/
+
+/* RESUME start */
+
+.timeline-container{
+    font-family: "Roboto",sans-serif;
+    width:50%;
+    margin:auto;
+    display:block;
+    position:relative;
+  }
+  .timeline-container ul.tl{
+      margin:20px 0;
+      padding:0;
+      display:inline-block;
+  
+  }
+  .timeline-container ul.tl li {
+      list-style: none;
+      margin:auto;
+      min-height:50px;
+      border-left:1px solid #86D6FF;
+      padding:0 0 50px 30px;
+      position:relative;
+      display: flex; 
+      flex-direction: row;
+  }
+  .timeline-container ul.tl li:last-child{ border-left:0;}
+  
+  ul.tl li .item-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  ul.tl li .item-title { 
+  }
+  ul.tl li .item-detail {
+      color:rgba(160, 253, 84, 0.5);
+      font-size:18px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.timeline-container{
+    color: aliceblue;
+}  
+span{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+}
+.item-detail{
+    color: white;
+    
+}
+
+/* review images align*/
+#reviwe-card{
+    padding-bottom: 20px;
+}
+#reviwe-image{
+    margin-top: 30px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+/* review images End*/
+/* blog image */
+#blog-image{
+ width: 300px;
+ border-radius: 20px;
+
+}
+#blog-card{
+    margin-top: 20px;
+}
+/* blog image end */
+/* Contact page */
+
+input{
+    color: white;
+    
+
+} 
+
+
+/* contact page end */
+
+input,textarea{
+    background-color: transparent;
+}
